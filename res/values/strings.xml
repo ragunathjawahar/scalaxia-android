@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scalaxia Beta</string>
+    
+	<!-- ScalaxiaActivity -->
+	<string name="message_network_problem">Please check your connection.</string>
+	<string name="message_no_tweets">No tweets found!</string>
+	<string name="format_tweet" formatted="false"><![CDATA[<b>%s</b>; - %s]]></string>
+	<string name="loading">Loading...</string>
+	
+	<!-- TeamActivity -->
+	<string name="player_about" formatted="false"><![CDATA[<b>%s</b><br /><b>%s</b><br />%s]]></string>
+	
+	<!-- URLs -->
+	<string name="url_scalaxia_json">http://scalaxia.appspot.com/scalaxiaJson</string>
+	<string name="url_scalaxia_website">http://scalaxia.appspot.com</string>
+	
+	<!-- Assets -->
+	<string name="assets_about">file:///android_asset/html/about.html</string>
+</resources>

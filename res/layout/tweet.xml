@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="8dp" >
+	
+    <ImageView 
+        android:id="@+id/profile_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_placeholder" />
+    
+	<LinearLayout 
+	    android:id="@+id/tweet_and_created_at"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@id/profile_image"
+	    android:layout_toRightOf="@id/profile_image"
+	    android:layout_marginRight="5dp"
+	    android:orientation="vertical"
+	    android:background="@drawable/tweet_content_bg" >
+	    
+	    <TextView 
+	        android:id="@+id/tweet"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/black"
+	        android:text="Scala - obtaining a class object from a generic type http://t.co/1upuJJol" />
+	    
+	    <TextView 
+	        android:id="@+id/created_at"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="2dp"
+	        android:textColor="@color/black"
+	        android:textSize="11.5sp"
+	        android:text="2 hours ago" />
+	</LinearLayout>
+</RelativeLayout>
